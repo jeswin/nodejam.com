@@ -68,6 +68,7 @@ a:hover {
 
   .whats-happening li img {
     width: 48px;
+    min-width: 48px;
     height: 48px;
     margin-top: 0.4em;
     margin-right: 1em;
