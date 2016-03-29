@@ -1,0 +1,147 @@
+body {
+  font-family: 'Merriweather', serif;
+  /*background: linear-gradient(to top, #FFF 61%,#FAFAFA 73%,#F6F6F6 77%,#EEE 88%);*/
+  margin: 0;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+  margin-left: 0;
+}
+
+ul, li { list-style: none; margin:0; padding: 0 }
+
+p {
+  margin: 0 0 1.5em 0;
+  line-height: 1.5em;
+}
+
+a, a:visited {
+  color: #0478A9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #086950;
+  text-decoration: underline;
+}
+
+.app-frame {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100%
+}
+
+.left-pane {
+  flex: 2;
+  min-width: 320px
+}
+
+.right-pane {
+  flex: 1;
+  background: white;
+  min-width: 320px;
+  min-height: 100%;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.container {
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.left-pane .container {
+  max-width: 960px;
+}
+
+.right-pane .container {
+  max-width: 400px;
+  margin: 0 1em 1em 1em;
+}
+
+.whats-happening {
+  font-size: 0.9em;
+}
+  .whats-happening li {
+    margin-bottom: 1em;
+  }
+
+  .whats-happening li img {
+    width: 48px;
+    height: 48px;
+    margin-top: 0.4em;
+    margin-right: 1em;
+    border-radius: 100%
+  }
+
+  .whats-happening li h3 {
+    margin-bottom: 0;
+  }
+
+  .whats-happening li .created {
+    color: #999;
+    font-size: 0.8em
+  }
+    .whats-happening li .created a {
+      color: #666
+    }
+
+section {
+  width: 100%;
+  margin: 0 auto 1em 0;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+section p:last-child {
+  margin-bottom: 0;
+}
+
+footer ul {
+  margin:0;
+  padding: 0;
+}
+
+footer li {
+  float: left;
+  list-style: none;
+  padding: 1em;
+  background: white;
+  margin: 0.2em
+}
+
+/* #Nephritis Flat Button
+==================================================*/
+.button-bar {
+  padding: 1em 0
+}
+
+.nephritis-flat-button {
+  position: relative;
+  vertical-align: top;
+  width: 100%;
+  height: 60px;
+  padding: 0;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #27ae60;
+  border: 0;
+  border-bottom: 2px solid #219d55;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #219d55;
+  box-shadow: inset 0 -2px #219d55;
+}
+.nephritis-flat-button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+a.nephritis-flat-button {
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-radius: 8px;
+}
