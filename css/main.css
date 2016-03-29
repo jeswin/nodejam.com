@@ -54,6 +54,16 @@ a:hover {
   max-width: 960px;
 }
 
+.left-pane .text p {
+  max-width: 20em;
+}
+
+@media (max-width: 900px) {
+  .left-pane .image {
+    background-position: top;
+  }
+}
+
 .right-pane .container {
   max-width: 400px;
   margin: 0 1em 1em 1em;
