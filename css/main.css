@@ -32,21 +32,15 @@ a:hover {
   min-height: 100%
 }
 
-.left-pane {
-  flex: 2;
-  min-width: 320px
-}
-
-.right-pane {
-  flex: 1;
-  background: white;
-  min-width: 320px;
-  min-height: 100%;
-}
-
 .container {
   margin: auto;
   box-sizing: border-box;
+}
+
+
+.left-pane {
+  flex: 2;
+  min-width: 320px
 }
 
 .left-pane .container {
@@ -66,6 +60,22 @@ a:hover {
   .left-pane .image {
     background-position: top;
   }
+}
+
+.right-pane {
+  flex: 1;
+  background: #3A4858;
+  min-width: 320px;
+  min-height: 100%;
+  color: white;
+}
+
+.right-pane a, .right-pane a:visited {
+  color: #eee;
+}
+
+.right-pane a:hover {
+  color: #fff;
 }
 
 .right-pane .container {
@@ -93,13 +103,15 @@ a:hover {
     margin-bottom: 0;
     font-weight: normal
   }
+    .whats-happening li h3 a, .whats-happening li h3 a:visited {
+      color: #75E5F9
+    }
 
   .whats-happening li .created {
-    color: #999;
     font-size: 0.8em
   }
     .whats-happening li .created a {
-      color: #666
+      color: #eee
     }
 
 section {
