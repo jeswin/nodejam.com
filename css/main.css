@@ -54,7 +54,7 @@ a:hover {
 }
 
 .left-pane .text p {
-  max-width: 20em;
+  font-size: 0.8em;
 }
 
 @media (max-width: 900px) {
