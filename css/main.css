@@ -53,6 +53,10 @@ a:hover {
   max-width: 960px;
 }
 
+.left-pane .text {
+  flex: 1; min-width: 280px; padding: 1em 1em 2em 1em; font-size: 1.3em; box-sizing: border-box; background: white;
+}
+
 .left-pane .text p {
   font-size: 0.8em;
 }
