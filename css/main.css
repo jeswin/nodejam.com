@@ -64,7 +64,13 @@ a:hover {
 
 .right-pane {
   flex: 1;
-  background: #3A4858;
+  background: linear-gradient(to bottom, rgba(50,67,86,1) 0%,
+    rgba(50,67,86,0.94) 9%,
+    rgba(50,67,86,.88) 25%,
+    rgba(32,56,81,0.80) 35%,
+    rgba(31,55,81,0.72) 45%,
+    rgba(31,55,81,0.72) 100%
+  );
   min-width: 320px;
   min-height: 100%;
   color: white;
